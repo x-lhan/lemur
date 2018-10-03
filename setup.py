@@ -154,6 +154,7 @@ setup(
             'digicert_cis_issuer = lemur.plugins.lemur_digicert.plugin:DigiCertCISIssuerPlugin',
             'digicert_cis_source = lemur.plugins.lemur_digicert.plugin:DigiCertCISSourcePlugin',
             'csr_export = lemur.plugins.lemur_csr.plugin:CSRExportPlugin',
+            'vault_issuer = lemur.plugins.lemur_vault.plugin:VaultIssuerPlugin',
             'sftp_destination = lemur.plugins.lemur_sftp.plugin:SFTPDestinationPlugin'
         ],
     },
